@@ -1,0 +1,33 @@
+.seccionJuego{  
+
+    margin-top: 5%;
+
+    h2{
+        color: white;
+        text-shadow: 4px 4px rgba(0, 0, 0, 0.698);
+
+        background-image: url(../img/spl1/home/fondo-titulo-game.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        border-radius: 10px;
+    }
+
+    .contenedorTexto{
+        background-color: rgba(25, 25, 25, 0.837);
+        border-radius: 20px;
+
+        padding: 2%;
+    }
+
+    .contenedorIframe1{
+        border: 10px double rgb(255, 68, 0);
+        background-color: rgba(0, 0, 0, 0.82);
+    }
+
+    .contenedorIframe2{
+        border: 10px double blue;
+        background-color: rgba(0, 0, 0, 0.82);
+    }
+    
+}

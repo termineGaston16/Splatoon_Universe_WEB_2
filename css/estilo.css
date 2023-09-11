@@ -1,0 +1,464 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "ChakraPetch";
+  src: url("../fonts/ChakraPetch-Bold.ttf") format("truetype");
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* IMPORTS */
+.headerIndex {
+  background-image: url(../img/index/barra-nav-logos.png);
+  background-size: cover;
+  background-position: 50% 0px;
+}
+.headerIndex .spLogoBarraNavIndex {
+  width: 100%;
+}
+
+.primerasImpresiones {
+  margin-top: 10%;
+  flex-direction: column;
+}
+.primerasImpresiones .imagenPrincipalIndex {
+  width: 100%;
+}
+.primerasImpresiones .iframeVideo {
+  border: 10px double rgb(93, 0, 255);
+}
+
+.remarcarTexto1 {
+  color: rgb(252, 252, 132);
+}
+
+.remarcarTexto2 {
+  color: rgba(255, 255, 255, 0.548);
+  text-shadow: 4px 4px rgba(7, 7, 7, 0.554);
+  font-style: italic;
+}
+
+.remarcarTexto3 {
+  color: rgb(0, 238, 255);
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.66);
+  font-style: italic;
+}
+
+.barraDivisoraIndex {
+  background-image: url(../img/index/fondo-barra-movimiento-home.png);
+  position: relative;
+}
+.barraDivisoraIndex .listaBarraNavIndex {
+  position: absolute;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+  gap: 30%;
+}
+.barraDivisoraIndex .listaBarraNavIndex li {
+  width: 30%;
+  margin: 0;
+}
+
+.menuSelector {
+  background-image: url(../img/index/menu-ima-navegator-fondo.jpg);
+  background-size: 100% auto;
+  background-position: center center;
+  background-repeat: repeat;
+}
+.menuSelector .imagenLogoSelectorMenu1 {
+  width: 100%;
+}
+.menuSelector .imagenLogoSelectorMenu2 {
+  width: 100%;
+}
+.menuSelector .contenedorMenuSelector {
+  z-index: 0;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  border: 10px ridge rgb(248, 248, 215);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menuSelector .contenedorMenuSelector h4 {
+  color: rgb(248, 248, 215);
+  position: absolute;
+  opacity: 0;
+  transition: 0.3s;
+  font-size: 0.9em;
+}
+.menuSelector .contenedorMenuSelector .imagenDentroContenedorMenuSelector {
+  width: 700px;
+}
+.menuSelector .contenedorMenuSelector .imagenDentroContenedorMenuSelector2 {
+  width: 700px;
+}
+.menuSelector .contenedorMenuSelector .imagenDentroContenedorMenuSelector3 {
+  width: 700px;
+}
+
+.botonFooter1 {
+  background: black;
+  border: solid 1px rgb(64, 0, 255);
+  color: rgb(64, 0, 255);
+  margin-bottom: 3%;
+  transition: 0.3s;
+}
+.botonFooter1:hover {
+  background: linear-gradient(to bottom right, rgb(64, 0, 255), rgb(223, 40, 255), rgb(246, 25, 29));
+  color: white;
+}
+
+.botonFooter2 {
+  background: linear-gradient(to bottom right, rgb(64, 0, 255), rgb(223, 40, 255), rgb(246, 25, 29));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: none;
+  transition: 0.3s;
+}
+.botonFooter2:hover {
+  transform: scale(1.2);
+}
+
+.bodyJuego1 {
+  background-image: url(../img/spl1/home/fondo-body.jpeg);
+  background-size: 100% auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "ChakraPetch", "Times New Roman", Times, serif;
+  text-align: center;
+  color: white;
+  text-shadow: 4px 4px rgb(7, 7, 7);
+  font-size: 1.4em;
+}
+
+.seccionJuego {
+  margin-top: 5%;
+}
+.seccionJuego h2 {
+  color: white;
+  text-shadow: 4px 4px rgba(0, 0, 0, 0.698);
+  background-image: url(../img/spl1/home/fondo-titulo-game.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 10px;
+}
+.seccionJuego .contenedorTexto {
+  background-color: rgba(25, 25, 25, 0.837);
+  border-radius: 20px;
+  padding: 2%;
+}
+.seccionJuego .contenedorIframe1 {
+  border: 10px double rgb(255, 68, 0);
+  background-color: rgba(0, 0, 0, 0.82);
+}
+.seccionJuego .contenedorIframe2 {
+  border: 10px double blue;
+  background-color: rgba(0, 0, 0, 0.82);
+}
+
+/* -------------------------------INDEX------------------------------------*/
+/* BODY GENERAL */
+body {
+  background-image: url(../img/index/fondo-body.png);
+  background-size: 100% auto;
+  background-position: center center;
+  background-repeat: repeat;
+  font-family: "ChakraPetch", "Times New Roman", Times, serif;
+  text-align: center;
+  color: white;
+  text-shadow: 4px 4px rgb(7, 7, 7);
+  font-size: 1.4em;
+}
+
+/* M Q */
+/* 0px - 480px */
+@media (min-width: 0px) and (max-width: 480px) {
+  /*HEADER*/
+  .headerIndex .spLogoBarraNavIndex {
+    width: 80%;
+  }
+  /*PRIMERAS IMPRESIONES*/
+  .primerasImpresiones {
+    gap: 25px;
+  }
+  .primerasImpresiones .iframeVideo {
+    width: 100%;
+  }
+  /* BARRA DIVISORA */
+  .barraDivisoraIndex .listaBarraNavIndex {
+    display: none;
+  }
+  /* MENU SELECTOR (JUEGO/CANTANTES) */
+  .menuSelector .imagenLogoSelectorMenu {
+    width: 80%;
+    margin: 5% 0px;
+    margin-bottom: 5%;
+  }
+  .menuSelector .contenedorMenuSelector {
+    width: 100%;
+    height: 400px;
+  }
+  .menuSelector .contenedorMenuSelector .imagenDentroContenedorMenuSelector {
+    width: 700px;
+  }
+  .menuSelector .contenedorMenuSelector .imagenDentroContenedorMenuSelector2 {
+    width: 900px;
+    margin-right: 40%;
+  }
+  .menuSelector .contenedorMenuSelector .imagenDentroContenedorMenuSelector3 {
+    width: 470px;
+    margin-top: 40%;
+  }
+}
+/* 481px - 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+  /*HEADER*/
+  .headerIndex .spLogoBarraNavIndex {
+    width: 70%;
+  }
+  /*PRIMERAS IMPRESIONES*/
+  .primerasImpresiones {
+    gap: 35px;
+  }
+  .primerasImpresiones .imagenPrincipalIndex {
+    width: 90%;
+  }
+  .primerasImpresiones .iframeVideo {
+    width: 100%;
+  }
+  /* BARRA DIVISORA */
+  .barraDivisoraIndex .listaBarraNavIndex {
+    display: none;
+  }
+  /* MENU SELECTOR (JUEGO/CANTANTES) */
+  .menuSelector .imagenLogoSelectorMenu {
+    width: 90%;
+    margin: 5% 0px;
+  }
+  .menuSelector .contenedorMenuSelector {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 5%;
+  }
+  .menuSelector .contenedorMenuSelector .imagenDentroContenedorMenuSelector {
+    width: 700px;
+  }
+  .menuSelector .contenedorMenuSelector .imagenDentroContenedorMenuSelector2 {
+    width: 900px;
+    margin-right: 20%;
+  }
+  .menuSelector .contenedorMenuSelector .imagenDentroContenedorMenuSelector3 {
+    width: 700px;
+    margin-top: 40%;
+  }
+}
+/* 769px - 1279px */
+@media (min-width: 769px) and (max-width: 1279px) {
+  /*HEADER*/
+  .headerIndex {
+    background-position: 0px 100%;
+  }
+  .headerIndex .botonNavIndex {
+    transition: 0.3s;
+  }
+  .headerIndex .botonNavIndex:hover {
+    transform: scale(0.8);
+  }
+  .headerIndex .botonNavIndex img {
+    width: 80%;
+  }
+  /*PRIMERAS IMPRESIONES*/
+  .primerasImpresiones {
+    gap: 15px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+  }
+  .primerasImpresiones .imagenPrincipalIndex {
+    width: 50%;
+    transition: 0.3s;
+  }
+  .primerasImpresiones .imagenPrincipalIndex:hover {
+    transform: scale(0.9);
+  }
+  .primerasImpresiones p {
+    width: 70%;
+  }
+  .primerasImpresiones .iframeVideo {
+    width: 70%;
+    height: 400px;
+  }
+  /* MENU SELECTOR (JUEGO/CANTANTES) */
+  .menuSelector .imagenLogoSelectorMenu1 {
+    width: 30%;
+    position: absolute;
+    z-index: 1;
+    margin-top: 20%;
+    margin-right: 70%;
+    transition: 0.3s;
+  }
+  .menuSelector .imagenLogoSelectorMenu1:hover {
+    transform: scale(0.9);
+  }
+  .menuSelector .imagenLogoSelectorMenu2 {
+    width: 30%;
+    position: absolute;
+    z-index: 1;
+    margin-top: 20%;
+    margin-left: 70%;
+    transition: 0.3s;
+  }
+  .menuSelector .imagenLogoSelectorMenu2:hover {
+    transform: scale(0.9);
+  }
+  .menuSelector .contenedorMenuSelector {
+    width: 80%;
+    height: 500px;
+    margin-bottom: 0%;
+    margin: 5%;
+  }
+  .menuSelector .contenedorMenuSelector .imagenDentroContenedorMenuSelector {
+    transition: 0.3s;
+    width: 900px;
+  }
+  .menuSelector .contenedorMenuSelector .imagenDentroContenedorMenuSelector2 {
+    transition: 0.3s;
+    width: 1100px;
+    margin-right: 20%;
+  }
+  .menuSelector .contenedorMenuSelector .imagenDentroContenedorMenuSelector3 {
+    transition: 0.3s;
+    width: 600px;
+    margin-top: 50%;
+  }
+  .menuSelector .contenedorMenuSelector:hover h4 {
+    transition: 0.3s;
+    opacity: 1;
+    z-index: 6;
+  }
+  .menuSelector .contenedorMenuSelector:hover .imagenDentroContenedorMenuSelector {
+    filter: grayscale(0.4) blur(7px);
+  }
+  .menuSelector .contenedorMenuSelector:hover .imagenDentroContenedorMenuSelector2 {
+    filter: grayscale(0.4) blur(7px);
+  }
+  .menuSelector .contenedorMenuSelector:hover .imagenDentroContenedorMenuSelector3 {
+    filter: grayscale(0.4) blur(7px);
+  }
+}
+/* 1280px -  */
+@media (min-width: 1280px) {
+  /*HEADER*/
+  .headerIndex {
+    background-position: 0px 100%;
+  }
+  .headerIndex .botonNavIndex {
+    transition: 0.3s;
+  }
+  .headerIndex .botonNavIndex:hover {
+    transform: scale(0.8);
+  }
+  .headerIndex .botonNavIndex img {
+    width: 70%;
+  }
+  /*PRIMERAS IMPRESIONES*/
+  .primerasImpresiones {
+    gap: 15px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+  }
+  .primerasImpresiones .imagenPrincipalIndex {
+    width: 30%;
+    transition: 0.3s;
+  }
+  .primerasImpresiones .imagenPrincipalIndex:hover {
+    transform: scale(0.9);
+  }
+  .primerasImpresiones p {
+    width: 70%;
+  }
+  .primerasImpresiones .iframeVideo {
+    width: 50%;
+    height: 400px;
+  }
+  /* MENU SELECTOR (JUEGO/CANTANTES) */
+  .menuSelector .imagenLogoSelectorMenu1 {
+    width: 25%;
+    position: absolute;
+    z-index: 1;
+    margin-top: 20%;
+    margin-right: 75%;
+    transition: 0.3s;
+  }
+  .menuSelector .imagenLogoSelectorMenu1:hover {
+    transform: scale(0.9);
+  }
+  .menuSelector .imagenLogoSelectorMenu2 {
+    width: 25%;
+    position: absolute;
+    z-index: 1;
+    margin-top: 20%;
+    margin-left: 75%;
+    transition: 0.3s;
+  }
+  .menuSelector .imagenLogoSelectorMenu2:hover {
+    transform: scale(0.9);
+  }
+  .menuSelector .contenedorMenuSelector {
+    width: 60%;
+    height: 500px;
+    margin-bottom: 0%;
+    margin: 5%;
+  }
+  .menuSelector .contenedorMenuSelector .imagenDentroContenedorMenuSelector {
+    transition: 0.3s;
+    width: 900px;
+  }
+  .menuSelector .contenedorMenuSelector .imagenDentroContenedorMenuSelector2 {
+    transition: 0.3s;
+    width: 1100px;
+    margin-right: 20%;
+  }
+  .menuSelector .contenedorMenuSelector .imagenDentroContenedorMenuSelector3 {
+    transition: 0.3s;
+    width: 600px;
+    margin-top: 50%;
+  }
+  .menuSelector .contenedorMenuSelector:hover h4 {
+    transition: 0.3s;
+    opacity: 1;
+    z-index: 6;
+  }
+  .menuSelector .contenedorMenuSelector:hover .imagenDentroContenedorMenuSelector {
+    filter: grayscale(0.4) blur(7px);
+  }
+  .menuSelector .contenedorMenuSelector:hover .imagenDentroContenedorMenuSelector2 {
+    filter: grayscale(0.4) blur(7px);
+  }
+  .menuSelector .contenedorMenuSelector:hover .imagenDentroContenedorMenuSelector3 {
+    filter: grayscale(0.4) blur(7px);
+  }
+}
+/* -------------------------------JUEGO------------------------------------*/
+/* M Q */
+/* 0px - 480px */
+@media (min-width: 0px) and (max-width: 480px) {
+  /* BODY GENERAL */
+  .bodyJuego1 {
+    background-size: 1100px;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

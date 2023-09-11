@@ -1,0 +1,26 @@
+.botonFooter1 {
+    background: black;
+    border: solid 1px rgb(64, 0, 255);
+    color: rgb(64, 0, 255);
+
+    margin-bottom: 3%;
+    transition: 0.3s;
+
+    &:hover {
+        background: linear-gradient(to bottom right, rgb(64, 0, 255), rgb(223, 40, 255), rgb(246, 25, 29));
+        color: white;
+    }
+}
+
+.botonFooter2 {
+    background: linear-gradient(to bottom right, rgb(64, 0, 255), rgb(223, 40, 255), rgb(246, 25, 29));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: none;
+    transition: 0.3s;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}

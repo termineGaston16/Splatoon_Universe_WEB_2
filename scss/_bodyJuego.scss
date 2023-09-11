@@ -1,0 +1,12 @@
+.bodyJuego1{
+    background-image: url(../img/spl1/home/fondo-body.jpeg);
+    background-size: 100% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+    font-family: 'ChakraPetch', 'Times New Roman', Times, serif;
+    @include textoBase;
+
+}
