@@ -218,10 +218,27 @@ html {
   background-repeat: no-repeat;
 }
 
+.portadaCantante2 {
+  background-image: url(../img/spl2/sq/off-the-hook-portada-home.jpg);
+  background-size: cover;
+  background-position: center 25%;
+  background-repeat: no-repeat;
+}
+
+.portadaCantante3 {
+  background-image: url(../img/spl3/sq/deep-cut-portada-home.jpeg);
+  background-size: cover;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+}
+
 .contenedorDeLaPlayList .contenedorDeLaLista {
   background-color: rgba(0, 0, 0, 0.848);
   border-radius: 20px;
   padding: 2%;
+  /* lista 1*/
+  /* lista 2*/
+  /* lista 3*/
 }
 .contenedorDeLaPlayList .contenedorDeLaLista .listaDeReproduccion1 {
   height: 400px;
@@ -248,6 +265,80 @@ html {
 .contenedorDeLaPlayList .contenedorDeLaLista .listaDeReproduccion1 .list-group-item.active {
   background-color: rgb(0, 255, 255);
   text-shadow: 1px 1px rgb(21, 255, 0);
+}
+.contenedorDeLaPlayList .contenedorDeLaLista .listaDeReproduccion2 {
+  height: 400px;
+  overflow: auto;
+}
+.contenedorDeLaPlayList .contenedorDeLaLista .listaDeReproduccion2 a {
+  background-color: rgb(0, 0, 0);
+  border: rgb(255, 255, 255) 1px solid;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+  transition: 0.3s;
+}
+.contenedorDeLaPlayList .contenedorDeLaLista .listaDeReproduccion2 a:hover {
+  text-shadow: rgb(13, 251, 224) 1px 1px;
+  transform: scale(0.9);
+}
+.contenedorDeLaPlayList .contenedorDeLaLista .listaDeReproduccion2 a:active {
+  transform: scale(0.4);
+}
+.contenedorDeLaPlayList .contenedorDeLaLista .listaDeReproduccion2 .list-group-item {
+  text-shadow: 1px 1px rgb(243, 113, 245);
+}
+.contenedorDeLaPlayList .contenedorDeLaLista .listaDeReproduccion2 .list-group-item.active {
+  background-color: rgb(0, 255, 255);
+  text-shadow: 1px 1px rgb(13, 251, 224);
+}
+.contenedorDeLaPlayList .contenedorDeLaLista .listaDeReproduccion3 {
+  height: 400px;
+  overflow: auto;
+}
+.contenedorDeLaPlayList .contenedorDeLaLista .listaDeReproduccion3 a {
+  background-color: rgb(0, 0, 0);
+  border: rgb(255, 255, 255) 1px solid;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+  transition: 0.3s;
+}
+.contenedorDeLaPlayList .contenedorDeLaLista .listaDeReproduccion3 a:hover {
+  text-shadow: yellow 1px 1px;
+  transform: scale(0.9);
+}
+.contenedorDeLaPlayList .contenedorDeLaLista .listaDeReproduccion3 a:active {
+  transform: scale(0.4);
+}
+.contenedorDeLaPlayList .contenedorDeLaLista .listaDeReproduccion3 .list-group-item {
+  text-shadow: 1px 1px blue;
+}
+.contenedorDeLaPlayList .contenedorDeLaLista .listaDeReproduccion3 .list-group-item.active {
+  background-color: rgb(0, 255, 255);
+  text-shadow: 1px 1px yellow;
+}
+
+.carruselSeccion {
+  margin: 5% 0px;
+}
+.carruselSeccion .carrusel {
+  border-radius: 20px;
+}
+.carruselSeccion .carrusel h2 {
+  color: rgb(70, 246, 240);
+  text-shadow: 4px 4px rgba(0, 0, 0, 0.118);
+  background-color: rgba(0, 0, 0, 0.585);
+  border-radius: 8px;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.carruselSeccion .carrusel .textoDes {
+  color: rgb(255, 255, 255);
+  text-shadow: 4px 4px rgba(0, 0, 0, 0.808);
+  background-color: rgba(0, 0, 0, 0.585);
+  border-radius: 8px;
+  padding-left: 1%;
 }
 
 /* -------------------------------INDEX------------------------------------*/

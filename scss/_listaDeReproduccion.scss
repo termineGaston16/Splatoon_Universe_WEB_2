@@ -1,41 +1,109 @@
 .contenedorDeLaPlayList {
-    .contenedorDeLaLista {
-      background-color: rgba(0, 0, 0, 0.848);
-      border-radius: 20px;
-      padding: 2%;
-  
-      .listaDeReproduccion1 {
-        height: 400px;
-        overflow: auto;
-  
-        a {
-          background-color: rgb(0, 0, 0);
-          border: rgb(255, 255, 255) 1px solid;
-          color: white;
-          text-decoration: none; 
-          transition: color 0.3s; 
-          transition: 0.3s;
-          
-          &:hover {
-            text-shadow: rgb(0, 255, 8) 1px 1px;
-            transform: scale(0.9);
-          }
+  .contenedorDeLaLista {
+    background-color: rgba(0, 0, 0, 0.848);
+    border-radius: 20px;
+    padding: 2%;
 
-          &:active{
-            transform: scale(0.4);
-          }
-  
+    /* lista 1*/
+    .listaDeReproduccion1 {
+      height: 400px;
+      overflow: auto;
+
+      a {
+        background-color: rgb(0, 0, 0);
+        border: rgb(255, 255, 255) 1px solid;
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s;
+        transition: 0.3s;
+
+        &:hover {
+          text-shadow: rgb(0, 255, 8) 1px 1px;
+          transform: scale(0.9);
         }
 
-        .list-group-item {
-            text-shadow: 1px 1px rgb(255, 0, 212);
+        &:active {
+          transform: scale(0.4);
         }
-        
-        .list-group-item.active {
-            background-color: rgb(0, 255, 255);
-            text-shadow: 1px 1px rgb(21, 255, 0);
+
+      }
+
+      .list-group-item {
+        text-shadow: 1px 1px rgb(255, 0, 212);
+      }
+
+      .list-group-item.active {
+        background-color: rgb(0, 255, 255);
+        text-shadow: 1px 1px rgb(21, 255, 0);
+      }
+    }
+
+    /* lista 2*/
+    .listaDeReproduccion2 {
+      height: 400px;
+      overflow: auto;
+
+      a {
+        background-color: rgb(0, 0, 0);
+        border: rgb(255, 255, 255) 1px solid;
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s;
+        transition: 0.3s;
+
+        &:hover {
+          text-shadow: rgb(13, 251, 224) 1px 1px;
+          transform: scale(0.9);
         }
+
+        &:active {
+          transform: scale(0.4);
+        }
+
+      }
+
+      .list-group-item {
+        text-shadow: 1px 1px rgb(243, 113, 245);
+      }
+
+      .list-group-item.active {
+        background-color: rgb(0, 255, 255);
+        text-shadow: 1px 1px rgb(13, 251, 224);
+      }
+    }
+
+    /* lista 3*/
+    .listaDeReproduccion3 {
+      height: 400px;
+      overflow: auto;
+
+      a {
+        background-color: rgb(0, 0, 0);
+        border: rgb(255, 255, 255) 1px solid;
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s;
+        transition: 0.3s;
+
+        &:hover {
+          text-shadow: yellow 1px 1px;
+          transform: scale(0.9);
+        }
+
+        &:active {
+          transform: scale(0.4);
+        }
+
+      }
+
+      .list-group-item {
+        text-shadow: 1px 1px blue;
+      }
+
+      .list-group-item.active {
+        background-color: rgb(0, 255, 255);
+        text-shadow: 1px 1px yellow;
       }
     }
   }
-  
+}
