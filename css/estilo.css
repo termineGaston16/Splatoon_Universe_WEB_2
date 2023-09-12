@@ -143,6 +143,48 @@ html {
   font-size: 1.4em;
 }
 
+.bodyCantante {
+  background-image: url(../img/index/fondo-body-cantantes.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "ChakraPetch", "Times New Roman", Times, serif;
+  text-align: center;
+  color: white;
+  text-shadow: 4px 4px rgb(7, 7, 7);
+  font-size: 1.4em;
+}
+
+.barraDeNavegacionJuego {
+  position: fixed;
+  background-color: none;
+  background-image: none;
+  right: 0%;
+  top: 0%;
+  transition: 0.3s;
+}
+.barraDeNavegacionJuego .nav-link img {
+  transition: 0.3s;
+}
+.barraDeNavegacionJuego .nav-link img:hover {
+  transform: scale(1.2);
+}
+
+.barraNavCantante .cartaNav {
+  transition: 0.2s;
+}
+.barraNavCantante .cartaNav:hover {
+  transform: scale(0.9);
+}
+.barraNavCantante .cartaNav:hover .card {
+  border: 3px solid rgb(255, 255, 255) !important;
+  background-size: 150% !important;
+}
+.barraNavCantante .cartaNav:hover h3 {
+  color: white !important;
+}
+
 .seccionJuego {
   margin-top: 5%;
 }
@@ -167,6 +209,45 @@ html {
 .seccionJuego .contenedorIframe2 {
   border: 10px double blue;
   background-color: rgba(0, 0, 0, 0.82);
+}
+
+.portadaCantante {
+  background-image: url(../img/spl1/sq/squid-sisters-portada-home.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.contenedorDeLaPlayList .contenedorDeLaLista {
+  background-color: rgba(0, 0, 0, 0.848);
+  border-radius: 20px;
+  padding: 2%;
+}
+.contenedorDeLaPlayList .contenedorDeLaLista .listaDeReproduccion1 {
+  height: 400px;
+  overflow: auto;
+}
+.contenedorDeLaPlayList .contenedorDeLaLista .listaDeReproduccion1 a {
+  background-color: rgb(0, 0, 0);
+  border: rgb(255, 255, 255) 1px solid;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+  transition: 0.3s;
+}
+.contenedorDeLaPlayList .contenedorDeLaLista .listaDeReproduccion1 a:hover {
+  text-shadow: rgb(0, 255, 8) 1px 1px;
+  transform: scale(0.9);
+}
+.contenedorDeLaPlayList .contenedorDeLaLista .listaDeReproduccion1 a:active {
+  transform: scale(0.4);
+}
+.contenedorDeLaPlayList .contenedorDeLaLista .listaDeReproduccion1 .list-group-item {
+  text-shadow: 1px 1px rgb(255, 0, 212);
+}
+.contenedorDeLaPlayList .contenedorDeLaLista .listaDeReproduccion1 .list-group-item.active {
+  background-color: rgb(0, 255, 255);
+  text-shadow: 1px 1px rgb(21, 255, 0);
 }
 
 /* -------------------------------INDEX------------------------------------*/
@@ -460,5 +541,27 @@ body {
     background-size: 1100px;
   }
 }
+/* 481px - 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+  /* BODY GENERAL */
+  .bodyJuego1 {
+    background-size: 1100px;
+  }
+}
+/* 769px - 1279px */
+@media (min-width: 769px) and (max-width: 1279px) {
+  /* BODY GENERAL */
+  .bodyJuego1 {
+    background-size: 1470px;
+  }
+}
+/* 1280px */
+@media (min-width: 1280px) {
+  /* BODY GENERAL */
+  .bodyJuego1 {
+    background-size: cover;
+  }
+}
+/* -------------------------------CANTANTES------------------------------------*/
 
 /*# sourceMappingURL=estilo.css.map */

@@ -14,7 +14,7 @@ html {
 
 /* IMPORTS */
 @import "variables", "mixin", "headerIndex", "primerasImpresiones", "remarcarTexto", "barraDivisoraIndex", "menuSelector", "footer", "bodyJuego",
-"barraNavJuego", "seccionJuego";
+"barraNav", "seccionJuego", "portadaCantante", "listaDeReproduccion";
 
 /* -------------------------------INDEX------------------------------------*/
 
@@ -408,6 +408,32 @@ body {
     /* BODY GENERAL */
     .bodyJuego1{
         background-size: 1100px;
-    }
+    } 
 }
+
+/* 481px - 768px */
+@media(min-width: 481px) and (max-width: 768px){
+    /* BODY GENERAL */
+    .bodyJuego1{
+        background-size: 1100px;
+    } 
+}
+
+/* 769px - 1279px */
+@media(min-width: 769px) and (max-width: 1279px){
+    /* BODY GENERAL */
+    .bodyJuego1{
+        background-size: 1470px;
+    } 
+}
+
+/* 1280px */
+@media(min-width: 1280px){
+    /* BODY GENERAL */
+    .bodyJuego1{
+        background-size: cover;
+    } 
+}
+
+/* -------------------------------CANTANTES------------------------------------*/
 

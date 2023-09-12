@@ -10,3 +10,15 @@
     @include textoBase;
 
 }
+
+.bodyCantante{
+    background-image: url(../img/index/fondo-body-cantantes.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+    font-family: 'ChakraPetch', 'Times New Roman', Times, serif;
+    @include textoBase;
+}
