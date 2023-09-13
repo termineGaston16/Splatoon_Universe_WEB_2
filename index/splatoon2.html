@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splatoon 2 | Splatoon´s Universe</title>
+    <!-- CSS BS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/estilo.css">
+    <!-- ESTILO DE FUENTE EXTERNA -->
+    <link rel="stylesheet" href="fonts/ChakraPetch-Bold.ttf">
+</head>
+
+<body class="bodyJuego2">
+    <!--ENCABEZADO DE LA PAGINA HOME-->
+    <header class="headerIndex">
+        <nav class="container px-4 py-5" id="custom-cards">
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+
+                <!--BOTON NAV 1-->
+                <div class="botonNavIndex col d-flex justify-content-center align-items-center">
+                    <a href="../index/splatoon1.html"><img src="../img/index/sp1-logo-barra-nav.png"
+                            alt="sp1-logo-barra-nav.png" class="spLogoBarraNavIndex"></a>
+                </div>
+
+                <!--BOTON NAV 2-->
+                <div class="botonNavIndex col d-flex justify-content-center align-items-center">
+                    <a href="../index/splatoon2.html"><img src="../img/index/sp2-logo-barra-nav.png"
+                            alt="sp1-logo-barra-nav.png" class="spLogoBarraNavIndex"></a>
+                </div>
+
+                <!--BOTON NAV 3-->
+                <div class="botonNavIndex col d-flex justify-content-center align-items-center">
+                    <a href="../index/splatoon3.html"><img src="../img/index/sp3-logo-barra-nav.png"
+                            alt="sp1-logo-barra-nav.png" class="spLogoBarraNavIndex"></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--BARRA DE NAVEGACIÓN-->
+    <div class="barraDeNavegacionJuego d-flex flex-column flex-shrink-0" style="width: 4.5rem;">
+        <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
+            <li class="nav-item">
+                <a href="../index.html" class="nav-link py-3" aria-current="page" title="Back" data-bs-toggle="tooltip"
+                    data-bs-placement="right">
+                    <img src="../img/spl1/home/volver-boton-.png" alt="volver-boton-.png" style="width: 100%;">
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#acercaDe" class="nav-link py-3" aria-current="page" title="Info" data-bs-toggle="tooltip"
+                    data-bs-placement="right">
+                    <img src="../img/spl1/home/info-boton.png" alt="info-boton.png" style="width: 100%;">
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#jugabilidad" class="nav-link py-3" aria-current="page" title="Game" data-bs-toggle="tooltip"
+                    data-bs-placement="right">
+                    <img src="../img/spl1/home/jugabilidad-boton.png" alt="jugabilidad-boton.png" style="width: 100%;">
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#historia" class="nav-link py-3" aria-current="page" title="Lore" data-bs-toggle="tooltip"
+                    data-bs-placement="right">
+                    <img src="../img/spl1/home/historia-boton.png" alt="historia-boton.png" style="width: 100%;">
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#splafest" class="nav-link py-3" aria-current="page" title="Party" data-bs-toggle="tooltip"
+                    data-bs-placement="right">
+                    <img src="../img/spl1/home/splafest-boton.png" alt="splafest-boton.png" style="width: 100%;">
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="../index/offTheHook.html" class="nav-link py-3" aria-current="page" title="Stars" data-bs-toggle="tooltip"
+                    data-bs-placement="right">
+                    <img src="../img/spl2/home/off-the-hook-boton.png" alt="off-the-hook-boton.png" style="width: 100%;">
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#octoExpansion" class="nav-link py-3" aria-current="page" title="8" data-bs-toggle="tooltip"
+                    data-bs-placement="right">
+                    <img src="../img/spl2/home/octo-expansion-boton.png" alt="octo-expansion-boton.png" style="width: 100%;">
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#salmonRun" class="nav-link py-3" aria-current="page" title="Salmon" data-bs-toggle="tooltip"
+                    data-bs-placement="right">
+                    <img src="../img/spl2/home/salmon-run-boton.png" alt="salmon-run-boton.png" style="width: 100%;">
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <!--MAIN JUEGO-->
+    <main class="container-fluid">
+        <!--ACERCA DE-->
+        <section id="acercaDe" class="seccionJuego" style="margin: 10% 0px;">
+            <h2 class="display-4 lh-1 mb-3">Acerca de</h2>
+
+            <hr class="featurette-divider">
+
+            <!--ARTICULO 1-->
+            <article class="row featurette">
+                <!--TEXTO-->
+                <div class="col-md-7 d-flex align-items-center justify-content-center"
+                    style="background-color:rgba(0, 0, 0, 0.575); border-radius: 20px;">
+                    <p class="lead">¡Ahora se suman los <strong>Octolings</strong>! <br>
+                        Fue lanzado a nivel mundial el 21 de julio de 2017.
+                        Hasta finales de 2021, se situó como el noveno título más vendido en la historia de su
+                        consola.
+                        <br>
+                        En diciembre del mismo año, había superado las 13.13 millones de copias en formato físico y
+                        digital.
+                        Según Famitsū, es el quinto juego de Nintendo Switch más exitoso en el mercado japones, con
+                        más
+                        de 4
+                        millones de unidades distribuidas.
+                    </p>
+                </div>
+                <!--IMAGEN/IFRAME-->
+                <div class="col-md-5 d-flex align-items-center justify-content-center">
+                    <form class="contenedorIframe3 p-md-1 rounded-3 w-100">
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/qN4w5D2tzME?si=FpNb18ST6RknwsE2"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </form>
+                </div>
+            </article>
+
+            <hr class="featurette-divider">
+
+            <!--ARTICULO 2-->
+            <article class="row featurette">
+                <!--TEXTO-->
+                <div class="col-md-7 order-md-2 d-flex align-items-center justify-content-center"
+                    style="background-color:rgba(0, 0, 0, 0.575); border-radius: 20px;">
+                    <p class="lead">Respecto a la primera entrega incluye novedades como un
+                        remozado modo en solitario, cambios en el
+                        sistema de juego, un mayor arsenal y nuevos estilos de combate. <br>
+                        El 13 de junio de 2018 se publicó una expansión de contenido descargable, <em>Splatoon 2:
+                            Octo
+                            Expansion</em>, que amplía el modo individual con una nueva historia desde el punto de
+                        vista
+                        de
+                        otra
+                        especie cefalópoda, los <strong>Octolings</strong>.​
+                    </p>
+                </div>
+                <!--IMAGEN/IFRAME-->
+                <div class="col-md-5 order-md-1 d-flex align-items-center justify-content-center">
+                    <img src="../img/spl2/home/splatoon2_art-info_general-1.png" alt="splatoon1_art-info_general-1.png"
+                        width="100%" height="auto">
+                </div>
+            </article>
+
+            <hr class="featurette-divider">
+
+            <!--ARTICULO 3-->
+            <article class="row featurette">
+                <!--TEXTO-->
+                <div class="col-md-7 d-flex align-items-center justify-content-center"
+                    style="background-color:rgba(0, 0, 0, 0.575); border-radius: 20px;">
+                    <p class="lead">La prensa especializada emitió críticas favorables. Entre los
+                        aspectos positivos se mencionan las
+                        novedades, el apartado gráfico y el mayor desarrollo de la modalidad para un jugador, además
+                        del
+                        sistema de juego y la estabilidad de la conexión en los combates en línea. <br>
+                        Como puntos negativos los críticos señalaron la ausencia de multijugador con pantalla
+                        dividida,
+                        el
+                        sistema de emparejamiento aleatorio o la falta de chat de voz.
+                    </p>
+                </div>
+                <!--IMAGEN/IFRAME-->
+                <div class="col-md-5 d-flex align-items-center justify-content-center">
+                    <form class="contenedorIframe4 p-md-1 rounded-3 w-100">
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/ylBYfndq8fU?si=4DQ6e9wgIMJfYrh2"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </form>
+                </div>
+            </article>
+
+            <hr class="featurette-divider">
+
+            <!--ARTICULO 4-->
+            <article class="row featurette">
+                <!--TEXTO-->
+                <div class="col-md-7 order-md-2 d-flex align-items-center justify-content-center"
+                    style="background-color:rgba(0, 0, 0, 0.575); border-radius: 20px;">
+                    <p class="lead">Que Splatoon tuviera una secuela fue objeto de burlas y de
+                        diversos memes durante el mes de octubre
+                        de 2016. <br>
+                        Splatoon 2 está basado 2 años en el futuro y es el tiempo transcurrido desde el primer juego
+                        y
+                        el
+                        número de la entrega.
+                    </p>
+                </div>
+                <!--IMAGEN/IFRAME-->
+                <div class="col-md-5 order-md-1 d-flex align-items-center justify-content-center">
+                    <img src="../img/spl2/home/splatoon2_art-info_general-2.jpg" alt="splatoon1_art-info_general-1.png"
+                        width="100%" height="auto">
+                </div>
+            </article>
+        </section>
+
+
+        <!--JUGABILIDAD-->
+        <section id="jugabilidad" class="seccionJuego" style="margin: 10% 0px;">
+            <h2 class="display-4 lh-1 mb-3">Jugabilidad</h2>
+
+            <!--ARTICULO 1-->
+            <article class="row featurette">
+                <!--TEXTO-->
+                <div class="col-md-7 d-flex align-items-center justify-content-center"
+                    style="background-color:rgba(0, 0, 0, 0.575); border-radius: 20px;">
+                    <p class="lead">La mecánica del juego sigue siendo la misma: un juego de
+                        disparos en tercera persona enfocado en el
+                        multijugador online, donde ocho jugadores se dividen en dos equipos de cuatro. Su tarea
+                        consiste
+                        en
+                        cubrir el escenario con tanta tinta del color de su equipo como sea posible dentro de un
+                        límite
+                        de
+                        tiempo.</p>
+                </div>
+                <!--IMAGEN/IFRAME-->
+                <div class="col-md-5 d-flex align-items-center justify-content-center">
+                    <form class="contenedorIframe3 p-md-1 rounded-3 w-100">
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/UzuOw50zmbU?si=Fa2dp3W1LD1DKWfL"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </form>
+                </div>
+            </article>
+
+            <hr class="featurette-divider">
+
+            <!--ARTICULO 2-->
+            <article class="row featurette">
+                <!--TEXTO-->
+                <div class="col-md-7 order-md-2 d-flex align-items-center justify-content-center"
+                    style="background-color:rgba(0, 0, 0, 0.575); border-radius: 20px;">
+                    <p class="lead">El juego añade nuevos tipos de armas y las armas del primer
+                        juego han sido alteradas con nuevas
+                        mecánicas, como las pistolas duales. Se han añadido nuevas armas especiales como el
+                        atormentador,
+                        también se han añadido nueva indumentaria como los pantalones y los cortes de pelo. El juego
+                        admite
+                        multijugador local con varias consolas de Nintendo Switch. Se implementaron nuevas tintas,
+                        nuevas
+                        marcas, nuevos peinados, un nuevo modo multijugador llamado Salmon Run y nuevos amiibo.
+                    </p>
+                </div>
+                <!--IMAGEN/IFRAME-->
+                <div class="col-md-5 order-md-1 d-flex align-items-center justify-content-center">
+                    <img src="../img/spl2/home/splatoon2_art-jugabilidad-1.jpg" alt="splatoon1_art-jugabilidad-1.png"
+                        width="100%">
+                </div>
+            </article>
+
+            <hr class="featurette-divider">
+
+            <!--ARTICULO 3-->
+            <article class="row featurette">
+                <!--TEXTO-->
+                <div class="col-md-7 d-flex align-items-center justify-content-center"
+                    style="background-color:rgba(0, 0, 0, 0.575); border-radius: 20px;">
+                    <p class="lead">En esta edición se incluye un modo cooperativo llamado
+                        <em>Salmon Run</em>, donde los jugadores
+                        deben
+                        colaborar para derrotar a enemigos que aparecen en hordas en la pantalla, utilizando armas
+                        específicas.
+                        Al derrotar a estos enemigos, los jugadores pueden recolectar alevines dorados que dejan
+                        atrás,
+                        los
+                        cuales pueden ser intercambiados por dinero y accesorios especiales.
+                        Es importante destacar que, a diferencia de los demás modos de juego, Salmon Run es temporal
+                        y
+                        solo aparece en franjas horarias específicas que son anunciadas con antelación.
+                    </p>
+                </div>
+                <!--IMAGEN/IFRAME-->
+                <div class="col-md-5 d-flex align-items-center justify-content-center">
+                    <form class="contenedorIframe4 p-md-1 rounded-3 w-100">
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/U1gyg1HjPOY?si=Tjsna8sTsHiGbuXa"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </form>
+                </div>
+            </article>
+        </section>
+
+        <!--LORE-->
+        <section id="historia" class="seccionJuego" style="margin: 10% 0px;">
+            <h2 class="display-4 lh-1 mb-3">Lore</h2>
+
+            <!--ARTICULO 1-->
+            <article class="row featurette">
+                <!--TEXTO-->
+                <div class="col-md-7 d-flex align-items-center justify-content-center"
+                    style="background-color:rgba(0, 0, 0, 0.575); border-radius: 20px;">
+                    <p class="lead"> La acción de Splatoon 2 transcurre dos años después del
+                        último festival, donde Tina derrotó a su
+                        prima Mar en la encuesta de popularidad del dúo que ambas forman, las Squid Sisters.
+                        En la primera parte, se revela que las ellas no son solo un grupo pop, sino que también
+                        tienen una
+                        identidad secreta como agentes 1 y 2 del Comando Branquias. Junto con el agente 3 (encarnado
+                        por el
+                        jugador), habían logrado detener al líder de los octarianos, DJ Octovius. <br>
+                        La relación entre las primas se ve afectada por el resultado de la encuesta, lo que las
+                        lleva a
+                        distanciarse.
+                        Posteriormente, Tina regresa a Inkpolis Square y descubre que tanto Mar como el Gran Siluro
+                        que
+                        proporciona electricidad a la ciudad han desaparecido.</p>
+                </div>
+                <!--IMAGEN/IFRAME-->
+                <div class="col-md-5 d-flex align-items-center justify-content-center">
+                    <form class="contenedorIframe3 p-md-1 rounded-3 w-100">
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/869_lwZfyTo?si=UixHLSP7UQbzuYCs"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </form>
+                </div>
+            </article>
+
+            <hr class="featurette-divider">
+
+            <!--ARTICULO 2-->
+            <article class="row featurette">
+                <!--TEXTO-->
+                <div class="col-md-7 order-md-2 d-flex align-items-center justify-content-center"
+                    style="background-color:rgba(0, 0, 0, 0.575); border-radius: 20px;">
+                    <p class="lead">Temiendo que los octarianos estén
+                        detrás del
+                        caso, retoma su identidad secreta como "agente 2" del Comando Branquias y recluta en la
+                        plaza a un
+                        Inkling, el personaje del usuario, que se convierte en el "agente 4" e investiga lo
+                        sucedido. <br>
+                        Con la ayuda de Tina y el experto en armas Jairo, el agente 4 debe recorrer los cinco mundos
+                        que
+                        componen el Valle Pulpo y recuperar todos los siluros o volbagres robados, incluyendo
+                        aquellos que dan
+                        energía a las máquinas de los jefes de nivel.
+                        A lo largo de la historia, se descubre que Mar ha sido secuestrada y manipulada mentalmente
+                        por DJ
+                        Octovius, quien ha logrado fugarse de prisión y utiliza el Gran Siluro para poner en marcha
+                        su nuevo
+                        escenario, el Octotrón.
+                    </p>
+                </div>
+                <!--IMAGEN/IFRAME-->
+                <div class="col-md-5 order-md-1 d-flex align-items-center justify-content-center">
+                    <img src="../img/spl2/home/splatoon2_art-lore-1.png" alt="splatoon1_art-lore-1.png" width="100%">
+                </div>
+            </article>
+
+            <hr class="featurette-divider">
+
+            <!--ARTICULO 3-->
+            <article class="row featurette">
+                <!--TEXTO-->
+                <div class="col-md-7 d-flex align-items-center justify-content-center"
+                    style="background-color:rgba(0, 0, 0, 0.575); border-radius: 20px;">
+                    <p class="lead"> En el último nivel, el agente 4 debe destruir el Octotrón
+                        para que Tina y Jairo liberen a
+                        Mar del
+                        control mental al que está sometida. Una vez esto sucede, las Squid Sisters actúan juntas de
+                        nuevo para
+                        ayudar al protagonista en su último enfrentamiento con DJ Octovius, valiéndose del Pez
+                        Dorado para
+                        derrotarle.
+                        En el final del juego, el antagonista es encarcelado en una bola de nieve, el Gran Siluro
+                        regresa a
+                        Cromópolis, y las cantantes resuelven sus diferencias para volver a los escenarios.
+                    </p>
+                </div>
+                <!--IMAGEN/IFRAME-->
+                <div class="col-md-5 d-flex align-items-center justify-content-center">
+                    <form class="contenedorIframe4 p-md-1 rounded-3 w-100">
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/869_lwZfyTo?si=UixHLSP7UQbzuYCs"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </form>
+                </div>
+            </article>
+        </section>
+
+        <!--SPLAFEST-->
+        <section id="splafest" class="seccionJuego" style="margin: 10% 0px;">
+            <h2 class="display-4 lh-1 mb-3">¡Splafest!</h2>
+
+            <!--ARTICULO 1-->
+            <article class="row featurette">
+                <!--TEXTO-->
+                <div class="col-md-7 d-flex align-items-center justify-content-center"
+                    style="background-color:rgba(0, 0, 0, 0.575); border-radius: 20px;">
+                    <p class="lead"> Los Splatfests regresaron en Splatoon 2, ahora presentado
+                        por los miembros de <em>Off the Hook</em>,
+                        Pearl y
+                        Marina. La estructura era en gran parte la misma que en el juego anterior. Aunque Miiverse
+                        no es
+                        compatible con Nintendo Switch, la función de dibujo exclusiva de Splatoon 2 permite a los
+                        jugadores
+                        enviar garabatos que aparecen en el juego como letreros de neón, pancartas, fuegos
+                        artificiales o
+                        graffiti, así como cargar garabatos en cuentas de redes sociales.</p>
+                </div>
+                <!--IMAGEN/IFRAME-->
+                <div class="col-md-5 d-flex align-items-center justify-content-center">
+                    <form class="contenedorIframe3 p-md-1 rounded-3 w-100">
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/okIlIvHnaNw?si=QOLVcYT_ydBIL9Ik"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </form>
+                </div>
+            </article>
+
+            <hr class="featurette-divider">
+
+            <!--ARTICULO 2-->
+            <article class="row featurette">
+                <!--TEXTO-->
+                <div class="col-md-7 order-md-2 d-flex align-items-center justify-content-center"
+                    style="background-color:rgba(0, 0, 0, 0.575); border-radius: 20px;">
+                    <p class="lead"> Inkopolis Square está decorada de manera similar a
+                        Crómopolis en el primer juego, y todas
+                        las áreas
+                        quedan bloqueadas en la noche mientras Pearl y Marina realizan su evento allí.
+                    </p>
+                </div>
+                <!--IMAGEN/IFRAME-->
+                <div class="col-md-5 order-md-1 d-flex align-items-center justify-content-center">
+                    <img src="../img/spl2/home/splatoon2_art-splafest-1.jpg" alt="splatoon1_art-lore-1.png"
+                        width="100%">
+                </div>
+            </article>
+
+            <hr class="featurette-divider">
+
+            <!--ARTICULO 3-->
+            <article class="row featurette">
+                <!--TEXTO-->
+                <div class="col-md-7 d-flex align-items-center justify-content-center"
+                    style="background-color:rgba(0, 0, 0, 0.575); border-radius: 20px;">
+                    <p class="lead">Chaos vs. Order</strong> (también conocido como Final
+                        Fest: Splatocalypse) fue muy
+                        promocionado como el
+                        Splatfest final de Splatoon 2, presentando muchas características especiales y únicas que
+                        influirían
+                        en los eventos de la secuela.
+                        Sin embargo, en 2020, cuatro Splatfests adicionales fueron organizados después de un año de
+                        inactividad, durante la pandemia de COVID-19, brindando a los jugadores más entretenimiento
+                        durante
+                        el encierro.
+                    </p>
+                </div>
+                <!--IMAGEN/IFRAME-->
+                <div class="col-md-5 d-flex align-items-center justify-content-center">
+                    <form class="contenedorIframe4 p-md-1 rounded-3 w-100">
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/PEk-Ib0n2Uc?si=lh1bTSiR1k4CviIE"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </form>
+                </div>
+            </article>
+        </section>
+
+        <!--OCTO-EXPANSION-->
+        <section id="octoExpansion" class="seccionJuego" style="margin: 10% 0px;">
+            <h2 class="display-4 lh-1 mb-3">Octo Expansion</h2>
+
+            <!--ARTICULO 1-->
+            <article class="row featurette">
+                <!--TEXTO-->
+                <div class="col-md-7 d-flex align-items-center justify-content-center"
+                    style="background-color:rgba(0, 0, 0, 0.575); border-radius: 20px;">
+                    <p class="lead">Splatoon 2: Octo Expansion añade un completo modo para un
+                        jugador que permite a los jugadores tomar
+                        el control del nuevo personaje Agente 8, un octoling que ha perdido sus recuerdos. La nueva
+                        campaña
+                        para un jugador incluye 80 misiones, así como nuevas historias que revelan datos
+                        desconocidos sobre
+                        personajes queridos de la saga. Los jugadores que completen la campaña Octo Expansion
+                        desbloquearán
+                        la habilidad de jugar como octolings en los combates multijugador.</p>
+                </div>
+                <!--IMAGEN/IFRAME-->
+                <div class="col-md-5 d-flex align-items-center justify-content-center">
+                    <form class="contenedorIframe7 p-md-1 rounded-3 w-100">
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/NBr6GqyuWnA?si=R9bTmSn47xCdJE0B"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </form>
+                </div>
+            </article>
+
+            <hr class="featurette-divider">
+
+            <!--ARTICULO 2-->
+            <article class="row featurette">
+                <!--TEXTO-->
+                <div class="col-md-7 order-md-2 d-flex align-items-center justify-content-center"
+                    style="background-color:rgba(0, 0, 0, 0.575); border-radius: 20px;">
+                    <p class="lead">Utilizando puntos como moneda, el jugador debe navegar por
+                        varias estaciones de metro y gastar puntos
+                        para completar estos desafíos. El número de puntos ganados o perdidos está determinado por
+                        el
+                        desempeño del jugador en cada desafío. Estos desafíos incluyen derrotar enemigos dentro de
+                        un límite
+                        de tiempo, guiar una bola 8 gigante, luchar contra jefes y más. Cada nivel se puede acceder
+                        a través
+                        del mapa del metro en el mundo central.
+                    </p>
+                </div>
+                <!--IMAGEN/IFRAME-->
+                <div class="col-md-5 order-md-1 d-flex align-items-center justify-content-center">
+                    <img src="../img/spl2/home/splatoon2_art-octo_expansion-4.png" alt="splatoon1_art-lore-1.png"
+                        width="100%">
+                </div>
+            </article>
+        </section>
+
+        <!--SALMON RUN-->
+        <section id="salmonRun" class="seccionJuego" style="margin: 10% 0px;">
+            <h2 class="display-4 lh-1 mb-3">Salmon Run</h2>
+
+            <!--ARTICULO 1-->
+            <article class="row featurette">
+                <!--TEXTO-->
+                <div class="col-md-7 d-flex align-items-center justify-content-center"
+                    style="background-color:rgba(0, 0, 0, 0.575); border-radius: 20px;">
+                    <p class="lead">En <em>Salmon Run</em>, cada partida consta de tres
+                        oleadas. Para completar cada oleada, los
+                        jugadores deben
+                        recolectar <strong>huevos de poder</strong> y <strong>huevos dorados</strong> derrotando a
+                        los
+                        salmónidos y depositándolos en la
+                        canasta de huevos. <em>Cada Boss</em> Salmonid derrotado deja caer tres huevos dorados, los
+                        cuales
+                        deben ser
+                        recogidos antes de que un Snatcher los tome de vuelta.</p>
+                </div>
+                <!--IMAGEN/IFRAME-->
+                <div class="col-md-5 d-flex align-items-center justify-content-center">
+                    <form class="contenedorIframe3 p-md-1 rounded-3 w-100">
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/8alvfmZi0zY?si=QPqwURBeVPX1jXdw"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </form>
+                </div>
+            </article>
+
+            <hr class="featurette-divider">
+
+            <!--ARTICULO 2-->
+            <article class="row featurette">
+                <!--TEXTO-->
+                <div class="col-md-7 order-md-2 d-flex align-items-center justify-content-center"
+                    style="background-color:rgba(0, 0, 0, 0.575); border-radius: 20px;">
+                    <p class="lead">Cada jugador solo puede llevar un
+                        huevo
+                        dorado a la vez.
+                        Cada oleada tiene una cuota específica que varía según el número y los rangos de los
+                        jugadores. Si
+                        la cuota no se alcanza antes de que termine el temporizador de la oleada o si todos los
+                        jugadores
+                        son derrotados, la partida falla. Completar una partida aumenta la calificación salarial del
+                        jugador
+                        y aumenta la dificultad de las siguientes partidas. Si fallan, a los jugadores se les paga
+                        por los
+                        huevos dorados recolectados, pero su nivel de pago puede reducirse.
+                    </p>
+                </div>
+                <!--IMAGEN/IFRAME-->
+                <div class="col-md-5 order-md-1 d-flex align-items-center justify-content-center">
+                    <img src="../img/spl2/home/splatoon2_art-salmun_run-1.png" alt="splatoon1_art-lore-1.png"
+                        width="100%">
+                </div>
+            </article>
+
+            <hr class="featurette-divider">
+
+            <!--ARTICULO 3-->
+            <article class="row featurette">
+                <!--TEXTO-->
+                <div class="col-md-7 d-flex align-items-center justify-content-center"
+                    style="background-color:rgba(0, 0, 0, 0.575); border-radius: 20px;">
+                    <p class="lead">En Salmon Run, el nivel de tinta y los usos de las armas
+                        especiales de los jugadores se muestran
+                        visualmente. El salvavidas en su espalda representa su tanque de tinta, que se agota desde
+                        la parte
+                        superior en sentido de las agujas del reloj. El stock de armas especiales se muestra como
+                        dos
+                        paquetes plateados atados a su sombrero, que desaparecen a medida que se usan las armas
+                        especiales.
+                    </p>
+                </div>
+                <!--IMAGEN/IFRAME-->
+                <div class="col-md-5 order-md-1 d-flex align-items-center justify-content-center">
+                    <img src="../img/spl2/home/splatoon2_art-salmun_run-3.jpg" alt="splatoon1_art-lore-1.png"
+                        width="100%">
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!--FOOTER-->
+    <footer class="container-fluid" style="background-color: rgba(0, 0, 0, 0.886);">
+        <div class="py-5">
+            <div class="row g-3">
+                <div class="col-md-5 offset-md-1 mb-3">
+                    <form>
+                        <h5>Fan-page by: <span class="remarcarTexto3">KDA/NOVA</span></h5>
+                        <p><span class="remarcarTexto1">Esta Fan-Page fue hecha sin fines de lucros.</span> <br> Todos
+                            los derechos pertenecen a Nintendo y
+                            a Splatoon
+                            company.
+                            Imágenes, información, música entre otros archivos fueron obtenidos de sitios oficiales y de
+                            sitios hechos
+                            por la comunidad.
+                            Desde ya, muchas gracias.</p>
+                        <button class="btn botonFooter1">Contacto Personal</button>
+                        <button class="btn botonFooter1">Diseños hechos por mí para esta página.</button>
+                    </form>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Splatoon</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2 botonFooter2">
+                            <a href="https://twitter.com/SplatoonJP" target="_blank" rel="noopener noreferrer"
+                                class="botonFooter2">Twitter</a>
+                        </li>
+                        <li class="nav-item mb-2 botonFooter2">
+                            <a href="https://www.nintendo.co.jp/character/splatoon/en/" target="_blank"
+                                rel="noopener noreferrer" class="botonFooter2">Sitio Oficial</a>
+                        </li>
+                        <li class="nav-item mb-2 botonFooter2">
+                            <a href="https://www.nintendo.com/es-ar/store/products/splatoon-3-switch/" target="_blank"
+                                rel="noopener noreferrer" class="botonFooter2">Comprar Juego</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Nintendo</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2 botonFooter2">
+                            <a href="https://twitter.com/Nintendo" target="_blank" rel="noopener noreferrer"
+                                class="botonFooter2">Twitter</a>
+                        </li>
+                        <li class="nav-item mb-2 botonFooter2">
+                            <a href="https://www.youtube.com/@NintendoAmerica/videos" target="_blank" rel="noopener noreferrer"
+                                class="botonFooter2">Youtube</a>
+                        </li>
+                        <li class="nav-item mb-2 botonFooter2">
+                            <a href="https://www.nintendo.co.jp/index.html" target="_blank" rel="noopener noreferrer"
+                                class="botonFooter2">Nintendo Oficial Site</a>
+                        </li>
+                        <li class="nav-item mb-2 botonFooter2">
+                            <a href="https://www.nintendo.co.jp/about_hp.html" target="_blank" rel="noopener noreferrer"
+                                class="botonFooter2">Website Policy</a>
+                        </li>
+                        <li class="nav-item mb-2 botonFooter2">
+                            <a href="https://www.nintendo.com/es-ar/switch/" target="_blank" rel="noopener noreferrer"
+                                class="botonFooter2">Nintendo Switch</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Acerca de mí</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2 botonFooter2">N/V</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>&copy; 2023 Nintendo. <br> All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--JS BS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

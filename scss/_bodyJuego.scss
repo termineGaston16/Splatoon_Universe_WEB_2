@@ -1,24 +1,21 @@
 .bodyJuego1{
-    background-image: url(../img/spl1/home/fondo-body.jpeg);
-    background-size: 100% auto;
-    background-position: center center;
-    background-repeat: no-repeat;
+    @include body (url(../img/spl1/home/fondo-body.jpeg));
     background-attachment: fixed;
+}
 
+.bodyJuego2{
+    @include body (url(../img/spl2/home/fondo-body.jpg));
+    background-attachment: fixed;
+}
 
-    font-family: 'ChakraPetch', 'Times New Roman', Times, serif;
-    @include textoBase;
-
+.bodyJuego3{
+    @include body (url(../img/spl3/home/fondo-body.jpg));
+    background-attachment: fixed;
 }
 
 .bodyCantante{
-    background-image: url(../img/index/fondo-body-cantantes.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+    @include body (url(../img/index/fondo-body-cantantes.png));
     background-attachment: fixed;
-
-
-    font-family: 'ChakraPetch', 'Times New Roman', Times, serif;
-    @include textoBase;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

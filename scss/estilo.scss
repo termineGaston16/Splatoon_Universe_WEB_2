@@ -20,13 +20,7 @@ html {
 
 /* BODY GENERAL */
 body {
-    background-image: url(../img/index/fondo-body.png);
-    background-size: 100% auto;
-    background-position: center center;
-    background-repeat: repeat;
-
-    font-family: 'ChakraPetch', 'Times New Roman', Times, serif;
-    @include textoBase;
+   @include body (url(../img/index/fondo-body.png))
 
 }
 
@@ -374,7 +368,7 @@ body {
             }
 
             &:hover {
-                h4 {
+                .t2 {
                     transition: 0.3s;
                     opacity: 1;
                     z-index: 6;
@@ -404,36 +398,70 @@ body {
 
 /* M Q */
 /* 0px - 480px */
-@media(min-width: 0px) and (max-width: 480px){
+@media(min-width: 0px) and (max-width: 480px) {
+
     /* BODY GENERAL */
-    .bodyJuego1{
+    .bodyJuego1 {
         background-size: 1100px;
-    } 
+    }
+
+    .bodyJuego2 {
+        background-size: 1100px;
+    }
+
+    .bodyJuego3 {
+        background-size: 1100px;
+    }
 }
 
 /* 481px - 768px */
-@media(min-width: 481px) and (max-width: 768px){
+@media(min-width: 481px) and (max-width: 768px) {
+
     /* BODY GENERAL */
-    .bodyJuego1{
+    .bodyJuego1 {
         background-size: 1100px;
-    } 
+    }
+
+    .bodyJuego2 {
+        background-size: 1100px;
+    }
+
+    .bodyJuego3 {
+        background-size: 1100px;
+    }
 }
 
 /* 769px - 1279px */
-@media(min-width: 769px) and (max-width: 1279px){
+@media(min-width: 769px) and (max-width: 1279px) {
+
     /* BODY GENERAL */
-    .bodyJuego1{
+    .bodyJuego1 {
         background-size: 1470px;
-    } 
+    }
+
+    .bodyJuego2 {
+        background-size: 1470px;
+    }
+
+    .bodyJuego3 {
+        background-size: 1470px;
+    }
 }
 
 /* 1280px */
-@media(min-width: 1280px){
+@media(min-width: 1280px) {
+
     /* BODY GENERAL */
-    .bodyJuego1{
+    .bodyJuego1 {
         background-size: cover;
-    } 
+    }
+
+    .bodyJuego2 {
+        background-size: cover;
+    }
+
+    .bodyJuego3 {
+        background-size: cover;
+    }
 }
-
 /* -------------------------------CANTANTES------------------------------------*/
-

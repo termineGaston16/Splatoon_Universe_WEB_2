@@ -89,12 +89,13 @@ html {
   align-items: center;
   justify-content: center;
 }
-.menuSelector .contenedorMenuSelector h4 {
+.menuSelector .contenedorMenuSelector .t2 {
   color: rgb(248, 248, 215);
   position: absolute;
   opacity: 0;
   transition: 0.3s;
   font-size: 0.9em;
+  text-decoration: none;
 }
 .menuSelector .contenedorMenuSelector .imagenDentroContenedorMenuSelector {
   width: 700px;
@@ -134,33 +135,62 @@ html {
   background-image: url(../img/spl1/home/fondo-body.jpeg);
   background-size: 100% auto;
   background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-repeat: repeat;
   font-family: "ChakraPetch", "Times New Roman", Times, serif;
   text-align: center;
   color: white;
   text-shadow: 4px 4px rgb(7, 7, 7);
   font-size: 1.4em;
+  background-attachment: fixed;
+}
+
+.bodyJuego2 {
+  background-image: url(../img/spl2/home/fondo-body.jpg);
+  background-size: 100% auto;
+  background-position: center center;
+  background-repeat: repeat;
+  font-family: "ChakraPetch", "Times New Roman", Times, serif;
+  text-align: center;
+  color: white;
+  text-shadow: 4px 4px rgb(7, 7, 7);
+  font-size: 1.4em;
+  background-attachment: fixed;
+}
+
+.bodyJuego3 {
+  background-image: url(../img/spl3/home/fondo-body.jpg);
+  background-size: 100% auto;
+  background-position: center center;
+  background-repeat: repeat;
+  font-family: "ChakraPetch", "Times New Roman", Times, serif;
+  text-align: center;
+  color: white;
+  text-shadow: 4px 4px rgb(7, 7, 7);
+  font-size: 1.4em;
+  background-attachment: fixed;
 }
 
 .bodyCantante {
   background-image: url(../img/index/fondo-body-cantantes.png);
-  background-size: cover;
+  background-size: 100% auto;
   background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-repeat: repeat;
   font-family: "ChakraPetch", "Times New Roman", Times, serif;
   text-align: center;
   color: white;
   text-shadow: 4px 4px rgb(7, 7, 7);
   font-size: 1.4em;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .barraDeNavegacionJuego {
   position: fixed;
   background-color: none;
   background-image: none;
-  right: 0%;
+  z-index: 5;
+  left: 0%;
   top: 0%;
   transition: 0.3s;
 }
@@ -208,6 +238,26 @@ html {
 }
 .seccionJuego .contenedorIframe2 {
   border: 10px double blue;
+  background-color: rgba(0, 0, 0, 0.82);
+}
+.seccionJuego .contenedorIframe3 {
+  border: 10px double rgb(255, 0, 238);
+  background-color: rgba(0, 0, 0, 0.82);
+}
+.seccionJuego .contenedorIframe4 {
+  border: 10px double rgb(17, 255, 0);
+  background-color: rgba(0, 0, 0, 0.82);
+}
+.seccionJuego .contenedorIframe5 {
+  border: 10px double rgb(85, 0, 255);
+  background-color: rgba(0, 0, 0, 0.82);
+}
+.seccionJuego .contenedorIframe6 {
+  border: 10px double rgb(250, 253, 70);
+  background-color: rgba(0, 0, 0, 0.82);
+}
+.seccionJuego .contenedorIframe7 {
+  border: 10px double rgb(119, 0, 255);
   background-color: rgba(0, 0, 0, 0.82);
 }
 
@@ -608,7 +658,7 @@ body {
     width: 600px;
     margin-top: 50%;
   }
-  .menuSelector .contenedorMenuSelector:hover h4 {
+  .menuSelector .contenedorMenuSelector:hover .t2 {
     transition: 0.3s;
     opacity: 1;
     z-index: 6;
@@ -631,11 +681,23 @@ body {
   .bodyJuego1 {
     background-size: 1100px;
   }
+  .bodyJuego2 {
+    background-size: 1100px;
+  }
+  .bodyJuego3 {
+    background-size: 1100px;
+  }
 }
 /* 481px - 768px */
 @media (min-width: 481px) and (max-width: 768px) {
   /* BODY GENERAL */
   .bodyJuego1 {
+    background-size: 1100px;
+  }
+  .bodyJuego2 {
+    background-size: 1100px;
+  }
+  .bodyJuego3 {
     background-size: 1100px;
   }
 }
@@ -645,11 +707,23 @@ body {
   .bodyJuego1 {
     background-size: 1470px;
   }
+  .bodyJuego2 {
+    background-size: 1470px;
+  }
+  .bodyJuego3 {
+    background-size: 1470px;
+  }
 }
 /* 1280px */
 @media (min-width: 1280px) {
   /* BODY GENERAL */
   .bodyJuego1 {
+    background-size: cover;
+  }
+  .bodyJuego2 {
+    background-size: cover;
+  }
+  .bodyJuego3 {
     background-size: cover;
   }
 }

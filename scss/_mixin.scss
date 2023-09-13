@@ -6,3 +6,12 @@
     font-size: 1.4em;
 }
 
+@mixin body ($direccionFondoDePantalla){
+    background-image: ($direccionFondoDePantalla);
+    background-size: 100% auto;
+    background-position: center center;
+    background-repeat: repeat;
+
+    font-family: 'ChakraPetch', 'Times New Roman', Times, serif;
+    @include textoBase;
+}
