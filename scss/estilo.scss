@@ -4,7 +4,7 @@
 }
 
 @font-face {
-    font-family: 'ChakraPetch';
+    font-family:'ChakraPetch';
     src: url('../fonts/ChakraPetch-Bold.ttf') format('truetype');
 }
 
@@ -402,15 +402,15 @@ body {
 
     /* BODY GENERAL */
     .bodyJuego1 {
-        background-size: 1100px;
+        background-size: $backgroundWitchPromedio;
     }
 
     .bodyJuego2 {
-        background-size: 1100px;
+        background-size: $backgroundWitchPromedio;
     }
 
     .bodyJuego3 {
-        background-size: 1100px;
+        background-size: $backgroundWitchPromedio;
     }
 }
 
@@ -419,15 +419,15 @@ body {
 
     /* BODY GENERAL */
     .bodyJuego1 {
-        background-size: 1100px;
+        background-size: $backgroundWitchPromedio;
     }
 
     .bodyJuego2 {
-        background-size: 1100px;
+        background-size: $backgroundWitchPromedio;
     }
 
     .bodyJuego3 {
-        background-size: 1100px;
+        background-size: $backgroundWitchPromedio;
     }
 }
 
@@ -465,3 +465,20 @@ body {
     }
 }
 /* -------------------------------CANTANTES------------------------------------*/
+
+/* M Q */
+/* 0px - 480px */
+@media(min-width: 0px) and (max-width: 480px) {
+
+    /* CARRUSEL */
+    .carruselSeccion{
+        h2{
+            display: none;
+        }
+        .textoDes{
+            display: none;
+        }
+    }
+
+}
+

@@ -10,12 +10,7 @@
       overflow: auto;
 
       a {
-        background-color: rgb(0, 0, 0);
-        border: rgb(255, 255, 255) 1px solid;
-        color: white;
-        text-decoration: none;
-        transition: color 0.3s;
-        transition: 0.3s;
+        @include listaDeReproduccion;
 
         &:hover {
           text-shadow: rgb(0, 255, 8) 1px 1px;
@@ -44,12 +39,7 @@
       overflow: auto;
 
       a {
-        background-color: rgb(0, 0, 0);
-        border: rgb(255, 255, 255) 1px solid;
-        color: white;
-        text-decoration: none;
-        transition: color 0.3s;
-        transition: 0.3s;
+        @include listaDeReproduccion;
 
         &:hover {
           text-shadow: rgb(13, 251, 224) 1px 1px;
@@ -78,12 +68,7 @@
       overflow: auto;
 
       a {
-        background-color: rgb(0, 0, 0);
-        border: rgb(255, 255, 255) 1px solid;
-        color: white;
-        text-decoration: none;
-        transition: color 0.3s;
-        transition: 0.3s;
+        @include listaDeReproduccion;
 
         &:hover {
           text-shadow: yellow 1px 1px;

@@ -1,12 +1,11 @@
-
-@mixin textoBase{
+@mixin textoBase {
     text-align: center;
     color: white;
     text-shadow: 4px 4px rgb(7, 7, 7);
     font-size: 1.4em;
 }
 
-@mixin body ($direccionFondoDePantalla){
+@mixin body ($direccionFondoDePantalla) {
     background-image: ($direccionFondoDePantalla);
     background-size: 100% auto;
     background-position: center center;
@@ -14,4 +13,13 @@
 
     font-family: 'ChakraPetch', 'Times New Roman', Times, serif;
     @include textoBase;
+}
+
+@mixin listaDeReproduccion {
+    background-color: rgb(0, 0, 0);
+    border: rgb(255, 255, 255) 1px solid;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    transition: 0.3s;
 }

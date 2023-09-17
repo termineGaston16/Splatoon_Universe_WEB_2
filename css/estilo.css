@@ -728,5 +728,16 @@ body {
   }
 }
 /* -------------------------------CANTANTES------------------------------------*/
+/* M Q */
+/* 0px - 480px */
+@media (min-width: 0px) and (max-width: 480px) {
+  /* CARRUSEL */
+  .carruselSeccion h2 {
+    display: none;
+  }
+  .carruselSeccion .textoDes {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=estilo.css.map */

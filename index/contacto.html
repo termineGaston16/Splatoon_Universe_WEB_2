@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Splatoon´s Universe</title>
+    <!-- CSS BS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/estilo.css">
+    <!-- ESTILO DE FUENTE EXTERNA -->
+    <link rel="stylesheet" href="fonts/ChakraPetch-Bold.ttf">
+
+    <link rel="icon" href="../img/index/logo-favicon.png" type="image/png">
+    <meta name="title" content="Contacto | Splatoon´s Universe">
+    <meta name="description"
+        content="Para los que les hayan gustado o interesado el diseño y distribución de la página y quieren contactarse conmigo. Pueden hacerlo desde el gmail gastontermine16@gmail.com. Desde ya, muchas gracias.">
+</head>
+
+<body>
+
+    <!--BARRA DE NAVEGACIÓN-->
+    <div class="barraDeNavegacionJuego d-flex flex-column flex-shrink-0" style="width: 4.5rem;">
+        <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
+            <li class="nav-item">
+                <a href="../index.html" class="nav-link py-3" aria-current="page" title="Back" data-bs-toggle="tooltip"
+                    data-bs-placement="right">
+                    <img src="../img/spl1/home/volver-boton-.png" alt="volver-boton-.png" style="width: 100%;">
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+    <main class="container" style="margin-bottom: 5%;">
+        <div>
+            <div class="py-5 text-center">
+                <h1>Contacto</h1>
+                <p class="lead">Si estás interesado/a en el diseño utilizado o quieres realizar alguna consulta por mí,
+                    envía un mensaje a mi correo electronico, por favor: <span style="color: aqua;">gastontermine16
+                        @gmail.com</span>. <br> (Esta página aún está en proceso de desarrollo. Aún le falta terminar la
+                    programacion. Por ende, los datos que sean escritos y enviados mendiante este formulario no llevarán
+                    a
+                    ninguna parte ya que es todo decorativo. )</p>
+            </div>
+
+            <div class="row g-5" style="display: flex; align-items: center; justify-content: center;">
+                <div class="col-md-7 col-lg-8">
+                    <h4 class="mb-3"></h4>
+                    <form class="needs-validation" novalidate>
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <label for="firstName" class="form-label">Primer Nombre</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                                <div class="invalid-feedback">
+                                    Completa este casillero.
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <label for="lastName" class="form-label">Segundo Nombre</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                                <div class="invalid-feedback">
+                                    Completa este casillero.
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="username" class="form-label">Username</label>
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text">@</span>
+                                    <input type="text" class="form-control" id="username" placeholder="Username"
+                                        required>
+                                    <div class="invalid-feedback">
+                                        Completa este casillero.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="email" class="form-label">Email <span
+                                        style="color: rgb(250, 250, 169);">(Opcional)</span></label>
+                                <input type="email" class="form-control" id="email"
+                                    placeholder="comandoBranquias@gmail.com">
+                                <div class="invalid-feedback">
+                                    Please enter a valid email address for shipping updates.
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="address" class="form-label">Dirección</label>
+                                <input type="text" class="form-control" id="address" placeholder="123 calle falsa."
+                                    required>
+                                <div class="invalid-feedback">
+                                    Please enter your shipping address.
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr class="my-4">
+
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="same-address">
+                            <label class="form-check-label" for="same-address">Admito que descubrí mucho acerca de este
+                                juego.</label>
+                        </div>
+
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="save-info">
+                            <label class="form-check-label" for="save-info">Este juego tiene tremendos temazos.</label>
+                        </div>
+
+                        <hr class="my-4">
+
+                        <h4 class="mb-3">Yo soy team...</h4>
+
+                        <div class="my-3">
+                            <div class="form-check">
+                                <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked
+                                    required>
+                                <label class="form-check-label" for="credit">Inkling</label>
+                            </div>
+                            <div class="form-check">
+                                <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+                                <label class="form-check-label" for="debit">Octoling</label>
+                            </div>
+                            <div class="form-check">
+                                <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+                                <label class="form-check-label" for="paypal">Salmóncito</label>
+                            </div>
+                        </div>
+                        <hr class="my-4">
+
+                        <button class="w-100 btn btn-primary btn-lg" type="submit">¡Enviar!</button>
+                    </form>
+                </div>
+            </div>
+    </main>
+
+    <!--JS BS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
